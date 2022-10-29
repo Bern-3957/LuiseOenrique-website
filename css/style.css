@@ -1,0 +1,496 @@
+body {
+    margin: 0;
+    font-family: 'Asap', sans-serif;
+
+    font-size: 15px;
+    color: #4d4d4d;
+
+}
+*
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1195px;
+    margin: 0 auto;
+}
+
+/* Логотип */
+.menu_and_first{
+    min-height: 750px;
+    background: url('../img/bg/main_bg.jpg') center center /cover no-repeat;
+    padding-top: 31px;
+
+
+}
+.logo_img {
+    margin-left: 20px;
+}
+
+.logo_text {
+    margin-top: 7px;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.logo_text1{
+    margin-left: 18px;
+    margin-top: 5px;
+    font-size: 4px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/* Меню */
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav_link{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin-right: 35px;
+    color: #4d4d4d;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.nav_link:after{
+    margin-top: 7px;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    opacity: 0;
+
+    background-color: #4d4d4d;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+
+    transition: opacity 0.5s linear;
+}
+.nav_link:hover {
+    color:black;
+}
+.nav_link:hover:after{
+    opacity: 1;
+}
+
+.second_part{
+    position: relative;
+}
+.mein_title {
+    margin-top: 175px;
+    font-size: 90px;
+    font-weight: 500;
+    color: #4d4d4d;
+    margin-left: 173px;
+}
+.main_subtitle {
+    margin-top: 2px;
+    opacity: 0.54;
+    font-size: 22px;
+    font-weight: 500;
+    color: #4d4d4d;
+    margin-left: 180px;
+}
+.btn{
+    margin-left: 182px;
+}
+.main_btn{
+    margin-top: 28px;
+    width: 160px;
+    height: 50px;
+    margin-right: 20px;
+}
+.main_btn:hover{
+    background-color: #fff;
+    /* border: none; */
+    border-color: rgb(113, 131, 134);
+    border-width: 1px;
+}   
+.big_img{
+    position: absolute;
+    top: -165px;
+    right: 150px;
+}
+
+/* Now_more */
+
+.alo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.now_more {
+    height: 700px;
+    padding: 109px 0 124px 0;
+    
+    
+}
+
+.now_more_line{
+    margin-top: 69px;
+    margin-left: 3px;
+    width: 60px;
+    height: 4px;
+    background-color: black;
+
+}
+
+.now_more_title{
+    opacity: 0.8;
+    display: block;
+    margin-top: 19px; 
+    max-width: 313px;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 49px;
+
+}
+.now_more_text{
+    margin-left: 3px;
+    max-width: 469px;
+    font-size: 16px;
+    margin-top: 6px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.now_more_btn{
+    margin-top: 17px;
+    margin-left: 3px;
+    width: 245px;
+    height: 50px;
+    border: 1px solid #4d4d4d;
+
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.now_more_img{
+    margin-top: 30px;
+    position: relative;
+    margin-left: 130px;
+}
+
+/*Service*/
+
+.service{
+    min-height: 700px;
+    padding: 119px 0 113px 0;
+    background-color: #f6f6f6;
+}
+.main_line {
+    margin: 0 auto;
+    width: 60px;
+    height: 4px;
+    opacity: 0.6;
+    background-color: #212121;
+}
+.main_line_wight{
+    margin: 0 auto;
+    width: 60px;
+    height: 4px;
+    opacity: 0.6;
+    background-color: #fff;
+    color:#fff;
+}
+.title{
+    margin-top: 13px;
+    text-align: center;
+    opacity: 0.8;
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+}
+.title_white{ 
+    margin-top: 13px;
+    text-align: center;
+    opacity: 0.8;
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color:#f6f6f6;
+}
+
+.services_block{
+    position: relative;
+}
+.services_img{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin: 100px 0 82px 140px;
+    
+    
+}
+.services_subtitle{
+    position: absolute;
+    display: flex;
+    justify-self: space-between;
+    text-align: center;
+    left: 115px;
+    top: 80px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* Skill */
+
+.skill{
+    min-height: 766px;
+    padding: 117px 0 127px 0;
+}
+
+.skill_img{
+    margin-left: 60px;
+    margin-top: 61px;
+    
+}
+
+/*Portfolio */
+.portfolio{
+    height: 757px;
+    background-color:#f6f6f6;
+    padding: 126px 0 123px 0;
+}
+
+.portfolio_about{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio_item {
+    margin: 0 auto;
+    margin-right: 30px;
+    
+}
+.portfolio_item:hover .portfolio_img img{
+    opacity:0.7;
+}
+.portfolio_img{
+    background: linear-gradient(to bottom, #f38181, #fce38a);
+}
+
+.portfolio_img img{
+    transition: opacity 0.1s linear;
+}
+
+.portfolio_btn{
+    margin:29px 0 0 495px;
+
+}
+.portfolio_btn button{
+    width: 190px;
+    height: 50px;
+    
+}
+
+/* TESTIMONIALS */
+.test{
+    position: relative;
+    min-height: 1158px;
+    padding: 126px 0 154px 0;
+}
+
+.test_border{
+    display: block;
+    margin: 0 auto;
+    margin-top: 57px;
+    width: 955px;
+    height: 349px;
+    border: solid 1px #212121;
+}
+
+.test_for_flex{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.test_img{
+    margin: 82px 0 0 121px;
+}
+.test_descr{
+    position: absolute;
+    margin: 70px 0 0 311px;
+}
+
+.test_descr .test_title{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgba(33, 33, 33, 0.9);
+}
+.test_descr .test_subtitle{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: rgba(33, 33, 33, 0.9);
+}
+.test_descr .test_text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.63;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+.test_sollid{
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+}
+.test_exemolar{
+    margin-right: 4px;
+    width: 13px;
+    height: 13px;
+    border:1px solid #212121;
+}
+.test_exemolar:last-child{
+    margin-right: 0;
+}
+.test_exemolar:nth-child(2){
+    background-color: #212121;
+}
+
+.mimi_inf_wrapper{
+    position: relative;
+    
+    margin-top: 125px;
+    height: 300px;
+    background-color: #f6f6f6;
+    
+    text-align: center;
+}
+.mini_inf_title{
+    font-style: 22px;
+    text-transform: uppercase;
+    color: #212121;
+    font-weight: 500;
+    margin-top: 35px;
+}
+.mini_number{
+    font-size: 25px;
+    font-weight: 700;
+}
+.col-md-3{
+    padding:0 0 0 70px ;
+}
+.common{
+    position: absolute;
+    padding:0 30px;
+    top: 50%;                     
+    transform: translate(0, -52%) 
+    
+}
+
+/* SAY_HELLO Footer*/
+
+.say_hello{
+    height: 790px;
+    padding: 125px 0 30px 0;
+    background: url('../img/footer_img.jpg')  center/cover no-repeat;
+}
+.top_inp{
+    margin-left: 199px;
+}
+.inp{
+    width: 370px;
+    height:57px;
+    margin-right: 30px;
+    margin-top: 70px;
+
+}
+.inp:last-child{
+    margin-right: 0;
+}
+.bottom_inp{
+    margin-left: 199px;
+}
+.big_inp{
+    margin-top: 30px;
+    width: 773px;
+    height: 207px;
+}
+
+.say_hello_btn{
+    margin-top: 30px;
+
+}
+.say_hello_btn .btn1{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 123px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .1s;
+}
+.say_hello_btn .btn1:hover{
+    background-color: rgb(117, 98, 98);
+    font-size: 18px;
+}
+.say_hello_line{
+    width: 1170px;
+    height: 1px;
+    margin: 58px 22px 26px 0;
+    background-color: #fff;
+}
+
+.say_hello_wrapper{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start */
+}
+.say_hello_wrapper > div {
+    width: 33%
+}
+
+.say_hello_wrapper_social{
+    position: relative;
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    left: 50%;
+    transform: translateX(-59%);
+    
+        
+}
+.say_hello_wrapper_social_item{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #080808;
+    width: 27px;
+    height: 27px;
+    margin: 2px 0 0 9px;
+    padding: 7px 6px 5px;
+    background-color: #fff;
+    
+
+}
+i{
+    color: #080808;
+}
+
+.say_hello_wrapper_text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #f6f6f6;
+    right: 50%;
+    transform: translateX(-70%);
+}
